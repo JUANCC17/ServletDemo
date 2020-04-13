@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<display-name>ServletDemo</display-name>
+
+	<servlet>
+		<servlet-name>servlet1</servlet-name>
+		<servlet-class>com.mitocode.servlets.BasicoServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>servlet1</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>servlet2</servlet-name>
+		<servlet-class>com.mitocode.servlets.HttpSimpleServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>servlet2</servlet-name>
+		<url-pattern>*.mitocode</url-pattern>
+	</servlet-mapping>
+
+</web-app>
+
+
